@@ -7,7 +7,7 @@ library(ggplot2)
 library(dplyr)
 
 # 1. Load data
-data <- read_csv("D:\\computer programing\\5th sem\\DMA lab\\project\\Rat Race vs Passion updated.csv")
+data <- read_csv("Rat Race vs Passion updated.csv")
 
 # 2. Quick overview
 glimpse(data)
@@ -376,4 +376,5 @@ ggplot(branch_yes, aes(x = Percent, y = Branch)) +
 # Darker shades of green represent branches where a higher proportion of students feel trapped.
 # The lollipop chart highlights only the 'Yes' percentages for each branch, making it easy to identify
 # the most competitive and pressured disciplines. Branches like CSE and ECE typically appear at the top,
+
 # indicating higher pressure, while branches like Biotechnology or Civil show lower competition levels.
